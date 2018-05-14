@@ -8,8 +8,23 @@
   align-items: center;
   justify-content: center;
 }
+
+.banner {
+  background: #CEF0DA;
+  color: white;
+  h1 {
+    font-size: 50px;
+  }
+  a {
+    color: #CEF0DA;
+    &:hover {
+      color: darken(#CEF0DA, 10%);
+    }
+  }
+}
+
 .banner h1 {
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 }

@@ -23,3 +23,7 @@ $border-radius-large: 2px;
 $border-radius-small: 2px;
 
 // Override other variables below!
+$body-bg:               #CEF0DA;
+$btn-primary-color:              #CEF0DA;
+$btn-primary-bg:                 $brand-primary;
+$btn-primary-border:             darken($btn-primary-bg, 5%);
